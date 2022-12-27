@@ -157,7 +157,7 @@ class Gamer(telepot.helper.CallbackQueryOriginHandler):
 
 
 if __name__ == "__main__":
-    TOKEN = '705103229:AAF20n1fAtMQn-1Askb9BKwdKEGyylBG51U'
+    TOKEN = '5841942016:AAEUeDRIkS7IdlKKnNWHBme6T1GfKHQGeSM'
 
     bot = telepot.DelegatorBot(TOKEN, [
         pave_event_space()(
