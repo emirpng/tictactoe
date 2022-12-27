@@ -1,5 +1,14 @@
 # coding: utf-8
-import collections
+import collections.abc
+
+# 👇️ add attributes to `collections` module
+# before you import the package that causes the issue
+collections.Hashable = collections.abc.Hashable
+collections.Mapping = collections.abc.Mapping
+collections.MutableMapping = collections.abc.MutableMapping
+collections.Iterable = collections.abc.Iterable
+collections.MutableSet = collections.abc.MutableSet
+collections.Callable = collections.abc.Callable
 import time
 import telepot
 import telepot.helper
